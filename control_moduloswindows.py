@@ -24,8 +24,8 @@ SERVICES_POR_HOST = {
     "10.2.12.30": ["7001-7010.service", "7011-7020.service"],
     "10.2.12.31": ["7021-7049.service"],
     "10.2.12.32": ["7050-7080.service", "7100.service"],
-    "10.2.12.41": ["7100.service", "7001-7010.service", "7011-7021.service", "7022-7031.service", "7032-7045.service"],
-    "10.2.12.42": ["7021-7049.service", "7050-7080.service"]
+    "10.2.12.41": ["7100.service", "7001-7010.service", "7011-7021.service", "7022-7031.service", "7032-7050.service"],
+    "10.2.12.42": ["7051-7061.service", "7062-7071.service", "7072-7080.service"],
 }
 OPTIONS = {"Iniciar módulos": "1", "Detener módulos": "2", "Reiniciar módulos": "3"}
 
